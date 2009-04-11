@@ -513,9 +513,10 @@ Also see AdvancedOptions</pre>
 </div>
 <!--POST-SHADOWAREA-->
 <div id="storeArea">
-<div title="11 April 2009" modifier="WRB" created="200904111246" modified="200904111300" tags="journal" changecount="4">
+<div title="11 April 2009" modifier="WRB" created="200904111246" modified="200904111816" tags="journal" changecount="5">
 <pre>BB
 *Added probability table to ResourcesTab
+*Added F# Notes to menu and copied in house rules from Google group
 *created StoryArc</pre>
 </div>
 <div title="3 April 2009" modifier="WRB" created="200904032038" modified="200904032149" tags="journal" changecount="2">
@@ -528,6 +529,9 @@ Also see AdvancedOptions</pre>
 <pre>BB
 *Added journal tiddler and entry for it in menu
 *Jekyl/Hyde theme is good -- hadn't thought about the connection, but Lovecraft is frequently about our own barbarism: discovering our inner potential for it, our inevitable progress towards it, our secret barbaric nature</pre>
+</div>
+<div title="ActionInterrupts" modifier="WRB" created="200904111812" modified="200904111813" changecount="3">
+<pre>If the GM permits, a player can spend a token Immediately after they make a roll, to amend the action that is currently happening.  The player can then either reroll at the original difficulty or use the new difficulty.  This is really just FATE 3's aspect invocation timing rules.</pre>
 </div>
 <div title="ArcTab" modifier="WRB" created="200904041149" modified="200904041310" tags="ideas" changecount="4">
 <pre>#The “second tier” of Mythos races realize the true peril that Earth is facing:  that Great Cthulhu *is* returning.  With Earth’s annihilation immiment, whatever petty moves they have been doing are now moot, or need to be stepped up.
@@ -565,13 +569,84 @@ Also see AdvancedOptions</pre>
 *Pursuit of higher knowledge
 *Fellowship of mankind</pre>
 </div>
-<div title="DefaultTiddlers" modifier="WRB" created="200903302331" modified="200904111339" changecount="4">
-<pre>StoryArc
+<div title="Consequences and Healing" modifier="WRB" created="200904111807" modified="200904111808" changecount="2">
+<pre>Consequences
+*You can use consequences to reduce the amount of a failed roll that would have taken your character out.
+*Without consequences, any miss by 2 or more takes your character out (this is a change to the basic F# damage rules).
+*There are 3 types of consequences: minor, moderate, severe.
+*Taking a consequence will reduce the amount of failure by 1, 2, or 3 points depending on the type you take.
+*You can only have one consequence of each type at any given time.
+*You may take more than one consequence to reduce the amount by more than 3
+Healing
+*Minor consequences disappear at the end of the scene.
+*Moderate consequences heal after a small but not insignificant amount of time.
+*Severe consequences heal after a large amount of time.
+Aspects that let you heal others
+*You can spend fate points to allow a healer to heal a character.
+*One fate point will heal a moderate consequence or reduce a severe consequence to moderate (which you can only do if there isn't already a moderate consequence; you can't have 2 moderate consequences).
+*Two fate points will heal a severe consequence.</pre>
+</div>
+<div title="DefaultTiddlers" modifier="WRB" created="200903302331" modified="200904111634" changecount="5">
+<pre>[[The Rays in the Air]]
+StoryArc
 [[Template]]</pre>
+</div>
+<div title="DynamicAspects" modifier="WRB" created="200904111811" modified="200904111811" changecount="4">
+<pre>When not vetoed by the GM, you can &quot;spawn&quot; new aspects off of other aspects.  There should be a risk of &quot;interesting failure&quot; (the drawback of added flexibility).  The values of all of your spawned aspects can total up to the value of the aspect that spawned them.  Once spawned, an aspect is locked in use until the end of the session but you can &quot;reclaim&quot; it by spending a token to destroy it.  A side effect of this is that you can have as many 0 value aspects as you want, which is just another way of explaining how that 0 value aspect got there :).
+
+Aspects that spawn others don't have to be magical or extraordinary in any way, but they can be.  They just have to be aspects which could &quot;produce stuff&quot;:
+* leadership
+* contacting
+* connection
+**person
+** organization
+** profession
+*scavenging
+*Mac Guyver
+*streetwise
+*bureaucratic navigation
+*bag of tricks
+*creative magic
+*gadgeteering
+*versatile giant robot
+*genie
+Spawned aspects should make a character better at what they do and/or let them do things they couldn't before:
+*~NPCs with the spawned aspects
+** mounts
+** vehicles
+** henchmen
+*ability-bearing equipment -- items with spawned aspects
+** x-ray goggles
+** jet pack
+** climbing gloves
+** scuba gear
+*personal enhancements
+** technological
+** magical
+** chemical
+** psionic
+*weapons
+*armor</pre>
 </div>
 <div title="ElementsTab" modifier="WRB" created="200903310136" modified="200904111259" tags="ideas" changecount="17">
 <pre>[[Spring Heeled Jack|http://en.wikipedia.org/wiki/Spring_Heeled_Jack]]
 [[The Difference Engine|http://en.wikipedia.org/wiki/The_Difference_Engine]]</pre>
+</div>
+<div title="F# Notes" modifier="WRB" created="200904111806" modified="200904111812" changecount="3">
+<pre>[[F# Probabilities]]
+[[Consequences and Healing]]
+DynamicAspects
+ActionInterrupts</pre>
+</div>
+<div title="F# Probabilities" modifier="WRB" created="200904111415" modified="200904111805" changecount="4">
+<pre>|&gt;||&gt;|&gt;|&gt;|&gt;|''Aspects and difficulties failed by 2, 3, and 5''||h
+|''probability''|''roughly''|''1''|''2''|''3''|''4''|''5''|''At least''|h
+|''3.70%''|''1 / 27''|0, 1, 3|1, 2, 4|2, 3, 5|3, 4, 6|4, 5, 7|3|
+|''14.81%''|''1 / 6''|1, 2, 4|2, 3, 5|3, 4, 6|4, 5, 7|5, 6, 8|2|
+|''37.04%''|''1 / 3''|2, 3, 5|3, 4, 6|4, 5, 7|5, 6, 8|6, 7, 9|1|
+|''62.96%''|''2 / 3''|3, 4, 6|4, 5, 7|5, 6, 8|6, 7, 9|7, 8, 10|0|
+|''85.19%''|''5 / 6''|4, 5, 7|5, 6, 8|6, 7, 9|7, 8, 10|8, 9, 11|-1|
+|''96.30%''|''26 / 27''|5, 6, 8|6, 7, 9|7, 8, 10|8, 9, 11|9, 10, 12|-2|</pre>
 </div>
 <div title="GasLightTab" modifier="WRB" created="200903310007" modified="200904041317" tags="ideas" changecount="11">
 <pre>Gas Light/Age of Steam (1880)
@@ -606,11 +681,13 @@ Barbarism &quot;Higher societies&quot; BarbarismTab
 Resources &quot;Links&quot; ResourcesTab
 &gt;&gt;</pre>
 </div>
-<div title="MainMenu" modifier="WRB" created="200903302329" modified="200904111339" changecount="12">
+<div title="MainMenu" modifier="WRB" created="200903302329" modified="200904111806" changecount="15">
 <pre>[[Ideas]]
 StoryArc
 [[Template]]
+[[Stories]]
 [[journal]]
+[[F# Notes]]
 ----
 WorldAspectsTab
 GoalsTab
@@ -634,18 +711,9 @@ MainMenu</pre>
 *Tension and release
 *Witness other race preparing and eating humans</pre>
 </div>
-<div title="ResourcesTab" modifier="WRB" created="200903302336" modified="200904111243" tags="ideas" changecount="19">
+<div title="ResourcesTab" modifier="WRB" created="200903302336" modified="200904111415" tags="ideas" changecount="20">
 <pre>[[F#|F%23 RPG system.pdf]]
-|&gt;||&gt;|&gt;|&gt;|&gt;|''Aspects and difficulties failed by 2, 3, and 5''||h
-|''probability''|''roughly''|''1''|''2''|''3''|''4''|''5''|''At least''|h
-|''3.70%''|''1 / 30''|0 / 1 / 3|1 / 2 / 4|2 / 3 / 5|3 / 4 / 6|4 / 5 / 7|3|
-|''14.81%''|''1 / 6''|1 / 2 / 4|2 / 3 / 5|3 / 4 / 6|4 / 5 / 7|5 / 6 / 8|2|
-|''37.04%''|''1 / 3''|2 / 3 / 5|3 / 4 / 6|4 / 5 / 7|5 / 6 / 8|6 / 7 / 9|1|
-|''62.96%''|''2 / 3''|3 / 4 / 6|4 / 5 / 7|5 / 6 / 8|6 / 7 / 9|7 / 8 / 10|0|
-|''85.19%''|''8 / 9''|4 / 5 / 7|5 / 6 / 8|6 / 7 / 9|7 / 8 / 10|8 / 9 / 11|-1|
-|''96.30%''|''29 / 30''|5 / 6 / 8|6 / 7 / 9|7 / 8 / 10|8 / 9 / 11|9 / 10 / 12|-2|
-|''100.00%''|''1''|6 / 7 / 9|7 / 8 / 10|8 / 9 / 11|9 / 10 / 12|10 / 11 / 13|-3|
-</pre>
+&lt;&lt;tiddler [[F# Probabilities]]&gt;&gt;</pre>
 </div>
 <div title="SiteSubtitle" modifier="YourName" created="200903310138" modified="200904031944" changecount="2">
 <pre>Lovecraftian Horror in the Victorian Era</pre>
@@ -653,15 +721,20 @@ MainMenu</pre>
 <div title="SiteTitle" modifier="Zot" created="200903310138" modified="200903310142" changecount="4">
 <pre>Terror in the Gaslight</pre>
 </div>
-<div title="StoryArc" modifier="WRB" created="200904111259" modified="200904111347" changecount="25">
-<pre>Play out story arc through a series of vignettes</pre>
+<div title="Stories" modifier="WRB" created="200904111455" changecount="1">
+<pre>[[The Rays in the Air]]</pre>
 </div>
-<div title="Template" modifier="WRB" created="200904111339" modified="200904111414" changecount="19">
+<div title="StoryArc" modifier="WRB" created="200904111259" modified="200904111417" changecount="27">
+<pre>Overarching campaign progression toward an end goal
+Play out story arc through a series of vignettes</pre>
+</div>
+<div title="Template" modifier="WRB" created="200904111339" modified="200904111419" changecount="22">
 <pre>!Indirect Communication
 *makes players feel impotent
 *compresses story time
 **communication of real time events during a journey or from far away
 **communication of past events through journals, etc.
+**If time runs short, relate events through communication instead of playing them out (throttle)
 *telegraph
 *correspondence
 *writing on walls
@@ -669,7 +742,7 @@ MainMenu</pre>
 *news papers
 *journals
 !Obsessed Researcher
-#Introduced to researcher through indirect but reliable means (hook)
+#Introduced to researcher through indirect but reliable means (bait)
 **colleague
 **acquaintance of relative
 **Seems noble
@@ -744,6 +817,35 @@ MainMenu</pre>
 **Many more will come
 **Villain is an underling
 **Villain had a master plan and subordinates</pre>
+</div>
+<div title="The Rays in the Air" modifier="WRB" created="200904111455" modified="200904111622" changecount="26">
+<pre>(Using Obsessed Researcher [[Template]])
+
+*Oliver Drebbs, researcher in the climatographic sciences contacts ~PCs
+**He has discovered a weather anomaly in the {{{--- remote area of Scotland highlands ---}}}, where he has been conducting climatological research
+**certain characteristic air patterns have been occurring with regular periodicity
+**he needs assistants to take precise measurements and gather data for a full week without interruption
+**it would mean interrupting the regular sleep habits and going without the expected amenities we have grown accustomed to
+*by means of carefully spraying powder in the air at the precise moments of these characteristic air patterns, Drebbs has been able to witness what seem to be fast-moving, whale-sized, airborne creatures by their fleeting outlines
+**creatures are shaped like the giant, sea going rays reported in tropical regions
+**local legend speaks of fae creatures who rode on the clouds
+**could there be a connection?
+*he was contacted by a strange old woman who suffered from some kind of palsy and wore many layers of clothing, so that you could only see the tip of her nose
+**she had a reputation around the area as a witch and no one seemed to know very much about her
+**she stopped him in the street and warned him not to get mixed up with the cloud fairies
+**he took her to a tavern where she slurped loudly at some stew he bought her as he tried to get more information from her
+**she told him the air beasts were used by the cloud fairies and he was likely to stir their anger them by disturbing the beasts
+**he never saw her again and attempts at inquiry were only met with suspicion or hostility
+*weeks later, he found the old woman dead at the base of the hill, with a broken neck
+**he could see then why she always appeared wrapped in so many layers of clothing
+***her skin was punctuated by eruptions of a green, ropey, moss-like growth that appeared to be living deep under the surface
+**clenched in her hand was a folded note, addressed to Drebbs
+***Mr Drebbs, I have seen the cloud fairies near your house.  If this note finds you, then I am already lost.  I have my ways to frustrate them, so do not fear that they have seen this note -- they cannot perceive it.  You must leave now and stop your meddling with the air beasts.  Do not return to this area, or they will send their pox on you, as they have done to me. You will not last under it; it is only my herbs and rites that have kept me alive.  Without them, you will soon perish.
+*Drebbs did not believe her, thinking her mad as a result of her strange illness
+**he kept up his researches for several more weeks
+*balloon ride
+**heliograph transmission provides a terrifying revelation
+**encounter with air beasts</pre>
 </div>
 <div title="ThemesTab" modifier="YourName" created="200903310006" modified="200904032010" tags="ideas" changecount="5">
 <pre>Themes
